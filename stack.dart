@@ -42,11 +42,11 @@ class MyStack {
   }
 }
 
-void main() {
-   MyStack stack = MyStack();
-  print(stack.push(1)); // null
-  print(stack.push(2)); // null
-  print(stack.top());   // 2
-  print(stack.pop());   // 2
-  print(stack.empty()); 
-}
+// void main() {
+//    MyStack stack = MyStack();
+//   print(stack.push(1)); // null
+//   print(stack.push(2)); // null
+//   print(stack.top());   // 2
+//   print(stack.pop());   // 2
+//   print(stack.empty()); 
+// }
