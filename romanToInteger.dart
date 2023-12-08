@@ -13,7 +13,7 @@ int romanToInt(String s) {
   int prevValue = 0;
 
   for (int i = s.length - 1; i >= 0; i--) {
-    int currentValue = romanValues[s[i]];
+    int currentValue = romanValues[s[i]]!;
     
     if (currentValue < prevValue) {
       result -= currentValue;
