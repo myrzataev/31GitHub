@@ -18,7 +18,7 @@ class Solution {
       sum += (nums[i] == 0) ? -1 : 1;
 
       if (sumToIndex.containsKey(sum)) {
-        maxLength = maxLength > i - sumToIndex[sum] ? maxLength : i - sumToIndex[sum];
+        maxLength = maxLength > i - sumToIndex[sum]! ? maxLength : i - sumToIndex[sum]!;
       } else {
         sumToIndex[sum] = i;
       }
